@@ -33,23 +33,23 @@ oob = {
 		## cardinality = 0..1
 		division_cap = int
 		regiments = {
-			## cardinality = 0..25
-			<unit.infantry> = { x = int[0..4] y = int[0..4] }
-			## cardinality = 0..25
-			<unit.armor> = { x = int[0..4] y = int[0..4] }
-			## cardinality = 0..25
-			<unit.mobile> = { x = int[0..4] y = int[0..4] }
-			## cardinality = 0..25
-			<unit.combat_support> = { x = int[0..4] y = int[0..4] }
-			## cardinality = 0..25
-			<unit.armor_combat_support> = { x = int[0..4] y = int[0..4] }
-			## cardinality = 0..25
-			<unit.mobile_combat_support> = { x = int[0..4] y = int[0..4] }
+			## cardinality = 0..60
+			<unit.infantry> = { x = int[0..10] y = int[0..6] }
+			## cardinality = 0..60
+			<unit.armor> = { x = int[0..10] y = int[0..6] }
+			## cardinality = 0..60
+			<unit.mobile> = { x = int[0..10] y = int[0..6] }
+			## cardinality = 0..60
+			<unit.combat_support> = { x = int[0..10] y = int[0..6] }
+			## cardinality = 0..60
+			<unit.armor_combat_support> = { x = int[0..10] y = int[0..6] }
+			## cardinality = 0..60
+			<unit.mobile_combat_support> = { x = int[0..10] y = int[0..6] }
 		}
 		## cardinality = 0..1
 		support = {
-			## cardinality = ~1..5
-			<unit.support_unit> = { x = 0 y = int[0..4] }
+			## cardinality = ~1..10
+			<unit.support_unit> = { x = int[0..2] y = int[0..6] }
 		}
 		## cardinality = 0..1
 		template_counter = int

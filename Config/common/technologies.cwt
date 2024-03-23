@@ -112,7 +112,7 @@ technology = {
 	### Technologies directly dependent on this tech.
 	sub_technologies = {
 		# vanila defines limit sub techs to three
-		## cardinality = ~1..3
+		## cardinality = ~1..6
 		<technology>
 	}
 	## cardinality = 0..inf
